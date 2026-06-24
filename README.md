@@ -1,68 +1,39 @@
-# 🔐 Auth — Firebase Authentication App
+<img width="1920" height="1080" alt="Screenshot 2026-06-24 135245" src="https://github.com/user-attachments/assets/0ab0a883-e3cf-482c-8f28-800defa75e23" />🔐 Auth — Firebase Authentication App
 
 An Android application built to explore and implement **Firebase Authentication**, featuring a complete auth flow with email/password sign-up, sign-in, password reset, and a post-login screen.
 
 ---
 
-## ✨ Features
+✨ Features
 
-- **Sign Up** — Register a new account with email & password
-- **Sign In** — Authenticate with existing credentials via Firebase
-- **Forgot Password** — Send a password reset email through Firebase
-- **Logged In Screen** — Welcome screen shown after successful authentication
-- **Sign Out** — Securely log out and return to the login screen with back-stack cleared
-
----
-
-## 📱 Screenshots
-
-| Login | Logged In |
-|-------|-----------|
-| *(Add screenshot here)* | *(Add screenshot here)* |
+Sign Up— Register a new account with email & password
+Sign In— Authenticate with existing credentials via Firebase
+Forgot Password— Send a password reset email through Firebase
+Logged In Screen— Welcome screen shown after successful authentication
+Sign Out— Securely log out and return to the login screen with back-stack cleared
 
 ---
 
-## 🛠️ Tech Stack
+📱Logged In
+ 
+<img width="1920" height="1080" alt="Screenshot 2026-06-24 134649" src="https://github.com/user-attachments/assets/ca0f4d5b-a4a5-40f5-82d0-8f278f924025" />
+
+---
+
+🛠️ Tech Stack
 
 | Layer | Technology |
 |-------|------------|
 | Language | Java |
 | Platform | Android (AppCompat) |
 | Auth Backend | Firebase Authentication |
-| UI | XML Layouts, EdgeToEdge |
+| UI | XML Layouts |
 | IDE | Android Studio |
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Android Studio (latest stable)
-- A Firebase project with **Email/Password** authentication enabled
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ByteBerry/<repo-name>.git
-   cd <repo-name>
-   ```
-
-2. **Connect Firebase**
-   - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Create a project and register your Android app
-   - Download `google-services.json` and place it in the `/app` directory
-   - Enable **Email/Password** under Authentication → Sign-in method
-
-3. **Build & Run**
-   - Open the project in Android Studio
-   - Sync Gradle, then run on an emulator or physical device
-
-> ⚠️ **Note:** `google-services.json` is excluded from this repo for security. You must provide your own Firebase config.
-
----
-
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 com.byteberry.auth
@@ -74,19 +45,14 @@ com.byteberry.auth
 
 ---
 
-## 🔒 Security Notes
+🔒 Security Notes
 
 - `google-services.json` is listed in `.gitignore` and never committed
 - Back stack is cleared on sign-out (`FLAG_ACTIVITY_NEW_TASK | FLAG_ACTIVITY_CLEAR_TASK`) to prevent back-navigation into authenticated state
 
 ---
 
-## 📄 License
-
-```
-MIT License — feel free to fork and build on this.
-```
 
 ---
 
-<p align="center">Made by <a href="https://github.com/ByteBerry">ByteBerry</a> · Learning by Building 🚀</p>
+<p align="center">Made by <a href="https://github.com/ByteBerryCS">ByteBerryCS</a> · Learning Firebase🔥</p>
