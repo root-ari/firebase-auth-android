@@ -55,4 +55,4 @@ com.byteberry.auth
 
 ---
 
-<p align="center">Made by <a href="https://github.com/ByteBerryCS">ByteBerryCS</a> · Learning Firebase🔥</p>
+<p align="center">Made by <a href="https://github.com/root-ari">root-ari</a> · Learning Firebase🔥</p>
